@@ -1,0 +1,1 @@
+(('New York Yankees',), ('St. Louis Cardinals',), ('Boston Red Sox',), ('Cincinnati Reds',), ('Detroit Tigers',), ('Baltimore Orioles',), ('Chicago Cubs',), ('Philadelphia Phillies',), ('San Francisco Giants',), ('Cleveland Indians',))
