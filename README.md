@@ -1,6 +1,6 @@
 To run:
 
-1. Please create a testRunner.config file (copy the template and change the "name" varialble to one that is yet to be used, then make a PR to add your results).
+1. Please create a testRunner.config file (copy the template and change the "name" variable to one that is yet to be used, then make a PR to add your results).
 2. Create a folder ./res/name corresponding to your name.
 3. Run `python testRunner.py`.
 
