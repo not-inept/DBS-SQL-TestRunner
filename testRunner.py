@@ -23,7 +23,7 @@ def runSQLFiles(connection):
 
         file = open(fileName, 'r')
         sql = " ".join(file.readlines())
-        print('\n\n'+fileName)
+        print('\n\n' + fileName)
         print('Start executing at: ' + str(start))
         cursor = connection.cursor()
         cursor.execute(sql)
@@ -47,8 +47,8 @@ def compareFiles():
         if root != myResultsLoc:
             for name in files:
                 if name in resFiles:
-                    print myResultsLoc+name + " compared to " + root + name
-                    print filecmp.cmp(myResultsLoc+name, root + name)
+                    print(myResultsLoc + name + " compared to " + root + name)
+                    print("Result: " + str(filecmp.cmp(myResultsLoc + name, root + name)) + "\n")
 
 
 def main():
